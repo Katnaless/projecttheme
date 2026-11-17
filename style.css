@@ -1,0 +1,22 @@
+/*
+Theme Name: WordPress starter theme
+Theme URI: https://github.com/tanjakobler/projecttheme
+Author: Olivier Guilleux
+Author URI: https://www.olivier-guilleux.com
+Description: Einfach bearbeitbares WordPress-Startertheme ohne Build-Schritt.
+Version: 1.0.0
+Text Domain: textdomaintomodify
+*/
+#tahefobu-header {
+  display: none !important;
+}
+
+body.turbo-hide-theme-header {
+  padding-top: 0 !important;
+}
+
+header#masthead, 
+.site-header {
+  display: block !important;
+  visibility: visible !important;
+}

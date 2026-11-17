@@ -1,0 +1,126 @@
+/*
+ * Footer
+ */
+footer {
+  background: linear-gradient(90deg, #3c361c 0%, #582841 45%, #5b2642 100%);
+  color: #ffffff;
+  width: 100%;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem 0 2.5rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer-menu-list li {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-block;
+}
+
+.footer-menu-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.footer-menu-list a:hover {
+  opacity: 0.8;
+}
+
+.footer-menu-list li:nth-last-child(1) a,
+.footer-menu-list li:nth-last-child(2) a {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.footer-logo img {
+  max-height: 65px;
+  width: auto;
+}
+
+.footer-divider {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  margin: 0 0 1.75rem 0;
+  width: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+@media (min-width: 767px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.footer-socials a:hover {
+  opacity: 0.75;
+}
+
+.footer-socials img {
+  width: 24px !important;
+  height: 24px !important;
+  display: block;
+  object-fit: contain;
+}
+
+.footer-email a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-email a:hover {
+  text-decoration: underline;
+}

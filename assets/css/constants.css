@@ -1,0 +1,18 @@
+/*
+ * Constants
+ *
+ * Keep colors and reusable theme values here.
+ */
+:root {
+  --theme-color-body: #D3A1D2;
+  --theme-color-secondary: #863C60;
+  --theme-color-tertiary: rgb(255 255 255 / 50%);
+  --theme-color-accent: #323300;
+  --theme-color-background: #EFE2D5;
+  --theme-transition: all 0.3s ease-in-out;
+
+  --theme-font-body: "Inter", sans-serif;
+  --theme-font-heading: "Uncial Antiqua", cursive;
+}
+
+
