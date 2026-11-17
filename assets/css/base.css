@@ -17,6 +17,6 @@
 }
 
 body {
-  background-color: black;
+  background-color: var(--theme-color-body);
 
 }
